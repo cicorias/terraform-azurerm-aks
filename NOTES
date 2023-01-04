@@ -1,0 +1,6 @@
+Did you know that we have some OSS terraform modules in the Azure org in GitHub? They include automated testing, documentation and more in an interesting and generalized way. I was looking at that during the break and wanted to share before I close the tab:Azure/terraform-azurerm-aksThe repo above uses this to automate docs and testing: Azure/tfmod-scaffold (github.com)It also uses this to run e2e tests: Azure/terraform-module-test-helper (github.com)I created this repo to learn how to set everything up (it's just a basic aks module for demos): AndresRCB/aks-public-cluster (github.com)If you're curious about adding tests and docs to your own TF modules, that would be an interesting thing to learn (just remember to SKIP_CHECKOV checks if your module is not meant for production). This is right up the alley of GM questions right now (testing IaC, terragrunt, etc.)
+
+https://github.com/Azure/terraform-azurerm-aks
+https://github.com/Azure/tfmod-scaffold
+https://github.com/Azure/terraform-module-test-helper
+https://github.com/AndresRCB/aks-public-cluster
